@@ -1,0 +1,9 @@
+[
+    {
+        "model": "todo.task", "pk": 1, "fields": {
+            "title": "Complete Django Easter Assignment",
+            "completed": false
+        }
+    }
+   
+]

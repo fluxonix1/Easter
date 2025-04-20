@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechRise Cohort 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal -tracking-normal">
+    <nav class="bg-blue-600 p-4 text-white">
+        <div class="flex justify-between">
+            <h1 class="text-2xl font-bold"> TechRise Cohort 2</h1>
+            <div class="space-x-4" >
+                <a href="{% url 'todo:task_list' %}" class="hover:underline">ToDo</a>
+                <a href="{% url 'quotes:quote_view' %}" class="hover:underline">Quotes</a>
+                <a href="{% url 'contact:contact_view' %}" class="hover:underline">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="p-6">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>

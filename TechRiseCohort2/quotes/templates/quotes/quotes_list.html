@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="p-4 max-w-xl mx-auto text-center">
+    {% if quote %}
+      <blockquote class="italic text-xl">“{{ quote.text }}”</blockquote>
+      <p class="mt-2 text-sm text-gray-500">— {{ quote.author }}</p>
+    {% else %}
+      <p>No quotes available.</p>
+    {% endif %}
+  </div>
+{% endblock %}

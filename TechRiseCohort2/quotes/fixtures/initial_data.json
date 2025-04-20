@@ -1,0 +1,37 @@
+[
+    {
+        "model": "quotes.quote", "pk": 1, "fields": {
+            "text": "The best way to get started is to quit talking and start doing.",
+            "author": "Walt Disney"
+        }
+    },
+    {
+        "model":"quotes.quote", "pk": 2, "fields":{
+            "text": "Don't let yesterday take too much of today.",
+            "author": "Will Rogers"
+        }
+    },
+    {
+        "model": "quotes.quote", "pk" : 3, "fields":{
+            "text": "Success is not in what you have but in what you are.",
+            "author": "Bo Benneth"
+        }
+    },    
+    {
+        "model": "quotes.quote", "pk" : 4, "fields":{
+            "text": "You miss 100%of the shots you don't take.",
+            "author": "Wayne Gretze"
+        }
+    },    
+    {
+        "model": "quotes.quote", "pk" : 5, "fields":{
+            "text": "Don't watch the clock; do what it dose. Keep going.",
+            "author": "sam Leveson"
+        }
+    },
+    {
+        "model":"quotes.quote", "pk" : 6, "fields":{"text" : "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+         "author" :"Walt Disney"
+        }
+    }
+]

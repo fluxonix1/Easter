@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{%  block content %}
+
+<div class="max-w-xl mx-auto bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-xl font-semibold mb-4">Contact Us</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class="mb-4">
+            <label class="block mb-1 font-medium">Name</label>
+            <input type="text" name="name" required class="w-full p-2 border rounded">
+        </div>
+        <div class="mb-4">
+            <label class="block mb-1 font-medium">Email Address</label>
+            <input type="email" name="email" required class="w-full p-2 border rounded">
+        </div>
+        <div class="mb-4">
+            <label class="block mb-1 font-medium">Messsage</label>
+            <textarea name="Messsage" rows="4" required class="w-full p-2 border rounded"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
+    </form>
+</div>
+{% endblock %}
