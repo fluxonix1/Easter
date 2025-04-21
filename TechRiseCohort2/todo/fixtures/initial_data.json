@@ -2,8 +2,14 @@
     {
         "model": "todo.task", "pk": 1, "fields": {
             "title": "Complete Django Easter Assignment",
+            "completed": true
+        }
+    },
+    {
+        "model": "todo.task", "pk": 2, "fields": {
+            "title": "Python class attendance register",
             "completed": false
         }
     }
    
-]
+] 

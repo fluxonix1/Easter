@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 <div class="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6">
-    <h2 class="text -xl font-semibold mb-4">Your To-Do List</h2>
+    <h2 class="text -xl font-semibold mb-4">My To-Do List</h2>
     <form method="post" class="flex space-x-2 mb-4">
         {% csrf_token %}
         <input type="text" name="title" placeholder="news task" class="flex-1 p-2 border rounded">
