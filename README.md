@@ -1,0 +1,1 @@
+Django Weekend Assignment-Techrise
